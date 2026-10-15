@@ -54,7 +54,7 @@ DATA_URL = (
 @st.cache_data
 def load_data():
     # pandas는 .gz 압축 CSV 파일을 직접 읽을 수 있습니다.
-    df = pd.read_csv(DATA_URL, compression="gzip")
+    df = pd.read_csv(DATA_URL, compression="zip")
 
     # 앞뒤 공백으로 인해 열 이름을 찾지 못하는 문제를 방지합니다.
     df.columns = df.columns.astype(str).str.strip()
