@@ -47,7 +47,7 @@ st.markdown("""
 
 DATA_URL = (
     "https://raw.githubusercontent.com/"
-    "soliwind/board/main/data/population_ts_yearly_gender.zip"
+    "soliwind/board/main/population_ts_yearly_gender.zip"
 )
 
 
